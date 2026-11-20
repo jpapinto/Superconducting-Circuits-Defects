@@ -1,5 +1,7 @@
 # Superconducting Defect Detection (YOLO11 + SAHI)
 
+> Originally developed in [pedropintoo/Superconducting-Circuits-Defects](https://github.com/pedropintoo/Superconducting-Circuits-Defects) by Pedro Pinto, João Pinto and Fedor Chikhachev for [CS-433 Machine Learning](https://edu.epfl.ch/coursebook/en/machine-learning-CS-433) at EPFL, in collaboration with the EPFL Hybrid Quantum Circuits Laboratory (HQC). This repository is a copy with the full commit history.
+
 Detecting microscopic fabrication defects on superconducting wafers. We target two defect types, Critical and Dirt-Wire, using a YOLO11 detector enhanced with SAHI slicing to recover small-object recall. The pipeline includes label standardization (Label Studio), class/background rebalancing, SAHI tiling, and stitched full-image evaluation to approximate deployment conditions. Tested on Ubuntu 24.04 LTS (x86_64) in a VM with Python 3.12.3, Pip 24.0, and an NVIDIA GeForce RTX 4060 (8 GB VRAM).
 
 
